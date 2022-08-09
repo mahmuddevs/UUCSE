@@ -8,7 +8,7 @@ gift = 0
 for x in range(len(marks) - 1):
     if marks[x + 1] > highest:
         gift += 1
-        best = marks[x + 1]
+        highest = marks[x + 1]
     if marks[x + 1] < lowest:
         lowest = marks[x + 1]
 
