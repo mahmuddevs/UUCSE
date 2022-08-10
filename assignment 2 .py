@@ -41,11 +41,11 @@ minute_dif_p2 = abs(((p2_lat//100) * 60 + (p2_lat % 100)) - ((p1_lat//100) * 60 
 
 d1_p1_d = minute_dif_p1 // 60
 d1_p1_m = minute_dif_p1 % 60
-print(f"Degree difference of longitude is {d1_p1_d} degree and {d1_p1_m}")
+print(f"Degree difference of longitude is {d1_p1_d} degree and {d1_p1_m} minutes")
 
 d2_p2_d = minute_dif_p2 // 60
 d2_p2_m = minute_dif_p2 % 60
-print(f"Degree difference of latitude is {d2_p2_d} degree and {d2_p2_m}")
+print(f"Degree difference of latitude is {d2_p2_d} degree and {d2_p2_m} minutes")
 
 #area of trapizoid
 base1_top = float(input('Enter value of top base: '))
