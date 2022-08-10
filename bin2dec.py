@@ -1,13 +1,13 @@
-num = int(input("Enter the Binary Number: "))
+bin = int(input("Enter A Binary Value: "))
 
-sum = 0
+dec = 0
 
-i = 0
+power = 0
 
-while num != 0:
-    rem = num % 10
-    sum = sum + rem * (2**i)
-    num = int(num/10)
-    i = i+1
+while bin != 0:
+    rem = bin % 10
+    dec = dec + rem * (2 ** power)
+    bin = bin // 10
+    power += 1
 
-print(sum)
+print(dec)
