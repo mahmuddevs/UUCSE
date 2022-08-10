@@ -57,3 +57,9 @@ s = (left + right +base2_bottom - base1_top) / 2
 triangle_area = (s * (s - left) * (s - right) * (s - (base2_bottom - base1_top))) ** 0.5
 
 height = (2 * triangle_area) / (base2_bottom - base1_top)
+
+
+trapi_area = ((base1_top + base2_bottom) / 2) * height
+
+print(f"The area of the trapezoid is {trapi_area}")
+
