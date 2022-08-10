@@ -31,6 +31,7 @@ print("The distance between point a to point b is" , dist)
 
 
 #geo difference
+p1_long = int(input("Enter place 1 latitude with 4 digit: "))
 p1_lat = int(input("Enter place 1 latitude with 4 digit: "))
 p2_long = int(input("Enter place 2 longitude with 4 digit: "))
 p2_lat = int(input("Enter place 2 latitude with 4 digit: "))
