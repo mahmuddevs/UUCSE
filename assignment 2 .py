@@ -52,7 +52,7 @@ base2_bottom = float(input('Enter value of bottom base: '))
 left = float(input('Enter value of left side: '))
 right = float(input('Enter value of right: '))
 
-s = (left + right +base2_bottom - base1_top) / 2
+s = (left + right + (base2_bottom - base1_top)) / 2
 
 triangle_area = (s * (s - left) * (s - right) * (s - (base2_bottom - base1_top))) ** 0.5
 
