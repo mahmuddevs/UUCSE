@@ -29,3 +29,15 @@ for i in range(e):
          n += 1
          ttlable.append(n)
 print(sum(ttlable))
+
+
+#team2
+e = int(input())
+n = 0
+for i in range(e):
+    able = input().split()
+
+
+    if able.count("1") >= 2:
+        n += 1
+print(n)
