@@ -41,3 +41,16 @@ for i in range(e):
     if able.count("1") >= 2:
         n += 1
 print(n)
+
+#array sorting
+num = []
+
+for x in range(int(input("Enter item amount: "))):
+    item = int(input(f"List Items {x+1}: "))
+    num.append(item)
+
+for i in range(len(num)):
+    for j in range(len(num)):
+        if num[i] < num [j]:
+            num[i], num[j] = num[j], num[i]
+print(num)
