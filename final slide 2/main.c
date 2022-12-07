@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-/* ---------1---------
+/* ---------percentage from 1-100---------
 
 void recursion(int i,float nn)
 {
@@ -26,7 +26,7 @@ main()
 
 */
 
-/* ---------2---------
+/* ---------factorial---------
 #include<stdio.h>
 long int multiplyNumbers(int n);
 int main() {
@@ -47,7 +47,7 @@ long int multiplyNumbers(int n) {
 
 
 
-/* ---------3---------
+/* ---------fibonacchi---------
 int Fibonacci(int n)
 {
     if ( n == 0 )
@@ -77,7 +77,7 @@ int main()
 */
 
 
-/* ---------4---------
+/* ---------power of number---------
 int power(int base, int a) {
     if (a != 0)
         return (base * power(base, a - 1));
@@ -98,7 +98,7 @@ int main() {
 
 
 
-/* ---------5---------
+/* ---------digit count---------
 int countDigits(int num)
 {
     static int count=0;
@@ -129,7 +129,7 @@ int main()
 }
 */
 
-/* ---------6---------
+/* ---------suym of all digits---------
 int sumOfDigits(int num)
 {
     if(num == 0)
@@ -156,7 +156,7 @@ int main()
 
 
 */
-/* ---------7---------*/
+/* ---------length of string using rec---------*/
 
 int find_len (char str[], int index)
 
