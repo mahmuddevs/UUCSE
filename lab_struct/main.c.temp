@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct student {
+    char *name;
+    char *id;
+    char *email;
+    char *address;
+    char *phone;
+}st1,st2,st3;
+
+int main()
+{
+    printf("Enter student 1 name");
+    scanf("%s",&st1.name);
+    printf("Enter student 1 ID");
+    scanf("%s",&st1.id);
+    printf("Enter student 1 email");
+    scanf("%s",&st1.name);
+    printf("Enter student 1 address");
+    scanf("%s",&st1.name);
+    printf("Enter student 1 phone no.");
+    scanf("%s",&st1.name);
+
+
+    printf("%s",st1.name);
+}
