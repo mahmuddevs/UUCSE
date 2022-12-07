@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
----------1--------*/
+---------five elments of array--------*/
 
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 }
 
 /*
--------2------*/
+-------Reverse order------*/
 
 int main(){
     int arr[5],i;
@@ -37,7 +37,7 @@ int main(){
 }
 
 /*
------3-----*/
+-----sum of all eliments-----*/
 int main(){
 
     int arr[5],i,sum=0;
@@ -54,7 +54,7 @@ int main(){
 
 
 /*
-----4----*/
+----show duplicates----*/
 int main(){
     int arr[5],i,j;
 
@@ -74,7 +74,7 @@ int main(){
 
 
 /*
-----5----*/
+----count duplicates----*/
 int main(){
     int arr[10],i,j,count=0;
 
@@ -95,7 +95,7 @@ int main(){
 
 
 /*
-----6----*/
+----unique eliments----*/
 int main(){
     int arr[10],i,j,count;
 
@@ -123,7 +123,7 @@ int main(){
 
 
 /*
-----7----*/
+----count frequency----*/
 
 int main()
 {
@@ -175,7 +175,7 @@ int main()
 
 
 /*
-----8----*/
+----maximum minimum----*/
 int main(){
     int arr[100];
     int size,i,min,max;
@@ -205,7 +205,7 @@ int main(){
     printf("\nMinimum = %d",min);
 }
 /*
-----9----*/
+----2nd maximum----*/
 int main() {
     int arr[100];
     int size,i,first,second;
@@ -242,7 +242,7 @@ int main() {
 
 
 /*
-----12----*/
+----delete element----*/
 
 int main()
 {
@@ -322,7 +322,7 @@ int main()
     */
 }
 
-/*-------13--------*/
+/*-------string length--------*/
 int main(){
 
 /* Counting String Length*/
@@ -340,7 +340,7 @@ int main(){
 
 }
 
-/*-------15--------*/
+/*-------word count--------*/
 
 
 void main()
@@ -367,6 +367,8 @@ void main()
     printf("Total number of words in the string is : %d\n", wrd-1);
 }
 
+
+/*-----alphabate , digits,special characters in string-----*/
 
 void main()
 {
@@ -408,7 +410,7 @@ void main()
 }
 
 
-
+/*--vowel consonant count----*/
 #include <stdio.h>
 int main()
 {
